@@ -1,0 +1,72 @@
+all the creatures, in the map info
+| | | | | | | | | | | | | | | |
+V V V V V V V V V V V V V V V V
+init_creature_id[creature_count];
+init_color[creature_count];
+init_type[creature_count];
+
+-----------------------------------------------------------------
+
+creature id's i scaned
+| | | | | | | | | | |
+V V V V V V V V V V V
+id_scanned[my_scan_count];
+
+----------------------------------------------------------------
+
+creature id's that op scaned
+| | | | | | | | | | |
+V V V V V V V V V V V
+op_id_scanned[my_scan_count];
+
+----------------------------------------------------------------
+
+my Drones info
+| | | | | | | |
+V V V V V V V V
+my_drone_id[my_drone_count];
+my_drone_x[my_drone_count];
+my_drone_y[my_drone_count];
+my_emergency[my_drone_count];
+my_battery[my_drone_count];
+
+------------------------------------------------------------------------
+
+Openent Drones info
+| | | | | | | |
+V V V V V V V V
+op_drone_id[op_drone_count];
+op_drone_x[op_drone_count];
+op_drone_y[op_drone_count];
+op_emergency[op_drone_count];
+op_battery[op_drone_count];
+
+------------------------------------------------------------------------
+
+creature scaned for each drone i have
+| | | | | | | | | | | | | | | | | | |
+V V V V V V V V V V V V V V V V V V V
+scanned_drone_id[drone_scan_count];
+scanned_creature_id[drone_scan_count];
+
+--------------------------------------------------------------------------
+visible creatures in my range info
+| | | | | | | | | | | | | | | | | |
+V V V V V V V V V V V V V V V V V V
+vis_creature_id[visible_creature_count];
+vis_creature_x[visible_creature_count];
+vis_creature_y[visible_creature_count];
+vis_creature_vx[visible_creature_count];
+vis_creature_vy[visible_creature_count];
+
+---------------------------------------------------------------------------
+radar info
+| | | | | |
+V V V V V V
+radar_drone_id[radar_blip_count];
+radar_creature_id[radar_blip_count];
+radar[radar_blip_count][3];
+BL: bottom left
+BR: bottom right
+TL: top left
+TR: top right
